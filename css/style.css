@@ -1,0 +1,50 @@
+
+
+div.gallery {
+    min-width: %;
+    margin: 0 auto;
+    border-radius: 10%;
+    margin: 5px;
+    border: 1px solid #42DCA3;
+    float: left;
+    width:20%;
+
+}
+
+div.gallery:hover {
+    border: 1px solid #42DCA3;
+    background-color: #42DCA3;
+    color: black;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    font-size: 2.5vmin;
+    text-align: center;
+}
+ img.raw{
+   border-radius: 100px;
+   width: 20%;
+ }
+
+
+
+ @font-face {
+    font-family: simplifica;
+    src: url(../simplifica.ttf);
+ }
+
+ .imel {
+    font-family: simplifica;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+ }
+.digi{
+  border-radius: 16px;
+  min-width: 45%;
+}
